@@ -45,6 +45,12 @@ pw : tQKEJFbgNGC1NCZlWAOjhyCOm6o3xEbPkJhTciZN
 
 
 ## NO 4
+### Temukan paket mysql yang mengandung perintah query select!
+
+- wireshark filter expression : mysql.query && (frame contains "SELECT" || frame contains "select")
+<img src="Images/M01-4.png">
+ Didapatkan paket yang mengandung query select
+
 
 ## NO 5
 ### Login ke portal.ichimarumaru.tech kemudian ikuti perintahnya! Username dan password bisa didapat dari query insert pada table users dari file .pcap!
