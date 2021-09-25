@@ -74,24 +74,24 @@ password: pemisah4lautan
 ## NO 6
 ### Cari username dan password ketika melakukan login ke FTP Server!
 Untuk mencari username dan password ketika login ke FTP Server, digunakan ftp.request.command == USER || ftp.request.command == PASS
-<img src="Images/M01-6.png">
+<img src="Images/M01-6.jpeg">
 
 ## NO 7
 ### Ada 500 file zip yang disimpan ke FTP Server dengan nama 0.zip, 1.zip, 2.zip, ..., 499.zip. Simpan dan Buka file pdf tersebut. (Hint = nama pdf-nya "Real.pdf")
 - Masukkan filter ftp-data contains "Real.pdf". Pilih baris paling atas, klik kanan,
 dan follow TCP Stream
-<img src="Images/M01-7a.png">
+<img src="Images/M01-7a.jpeg">
 
 - Save
-<img src="Images/M01-7b.png">
+<img src="Images/M01-7b.jpeg">
 
 - File Real.pdf akan terbuka seperti ini
-<img src="Images/M01-7c.png">
+<img src="Images/M01-7c.jpeg">
 
 ## NO 8
 ### Cari paket yang menunjukan pengambilan file dari FTP tersebut!
 Menggunakan display filter expression : ftp.request.command == RETR
-<img src="Images/M01-8.png">
+<img src="Images/M01-8.jpeg">
 
 ## NO 9
 Untuk menyimpan dan membuka file dari `file *.pcapng` yang telah disediakan terdapat beberapa langkah. 
@@ -153,8 +153,8 @@ kemudian buka link website dengan alamat `kemenag.go.id` dan hasilnya sebagai be
 ## No 15
 ### Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
 Capture filter diisi expression : ip src 192.168.8.104
-<img src="Images/M01-15a.jpg">
-<img src="Images/M01-15b.jpg">
+<img src="Images/M01-15a.jpeg">
+<img src="Images/M01-15b.jpeg">
 
 ## Kendala
 - Kesalahan pada nomor 14 yaitu awalnya menggunakan capture filter `host kemenag.go.id`.
