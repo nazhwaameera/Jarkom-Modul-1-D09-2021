@@ -54,8 +54,8 @@ pw : tQKEJFbgNGC1NCZlWAOjhyCOm6o3xEbPkJhTciZN
 
 ## NO 5
 ### Login ke portal.ichimarumaru.tech kemudian ikuti perintahnya! Username dan password bisa didapat dari query insert pada table users dari file .pcap!
-- Display Filter : mysql.query contains "select" || mysql.query contains "SELECT"
-<img src="Images/M01-5a.png">
+- Display Filter : mysql.query contains "insert" || mysql.query contains "INSERT"
+<img src="Images/M01-5A.png">
 Didapatkan nama akun beserta username untuk melakukan login pada “portal.ichimarumaru.tech” dengan
 username : akakanomi
 password: pemisah4lautan
