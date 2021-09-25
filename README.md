@@ -31,10 +31,31 @@ Untuk menemukan web-web yang menggunakan basic authentication method, digunakan 
 <img src="Images/M01-2.jpeg">
 
 ## NO 3
+### Ikuti perintah di basic.ichimarumaru.tech! Username dan password bisa didapatkan dari file .pcapng!
+
+- Display Filter : http.host contains “basic.ichimarumaru.tech”
+
+<img src="Images/M01-3a.png">
+Didapatkan akun dengan 
+username:kuncimenujulaut 
+pw : tQKEJFbgNGC1NCZlWAOjhyCOm6o3xEbPkJhTciZN
+
+- Masuk ke web dengan akun yang didapat dan menulis jawaban di halaman
+  <img src="Images/M01-3b.png">
+
 
 ## NO 4
 
 ## NO 5
+### Login ke portal.ichimarumaru.tech kemudian ikuti perintahnya! Username dan password bisa didapat dari query insert pada table users dari file .pcap!
+- Display Filter : mysql.query contains "select" || mysql.query contains "SELECT"
+<img src="Images/M01-5a.png">
+Didapatkan nama akun beserta username untuk melakukan login pada “portal.ichimarumaru.tech” dengan
+username : akakanomi
+password: pemisah4lautan
+
+- Mengisi jawaban pada halaman web
+<img src="Images/M01-5b.png">
 
 ## NO 6
 
